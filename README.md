@@ -1,3 +1,3 @@
-#nomadcoders-kokoaclone-2020ver
+# kokoaclone 2020 update nomadcoders
 
 HTML&CSS 실습
