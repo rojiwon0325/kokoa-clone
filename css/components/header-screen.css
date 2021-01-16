@@ -1,0 +1,30 @@
+.wrap-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 63px;
+    position:fixed;
+    background-color: white;
+    border-bottom: 1px solid white;
+    z-index:1;
+}
+.wrap-header:hover{
+    border-color: rgba(0,0,0,0.2);
+}
+
+.header-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.header-icons{
+    display: flex;
+}
+
+.header-icon{
+    margin-left:20px;
+}
