@@ -1,5 +1,5 @@
-@import "reset.css";
-@import "variables.css";
+@import "../reset.css";
+@import "../variables.css";
 
 .login-header{
     margin: 70px 0px;
@@ -17,7 +17,7 @@
 
 .login-header_text{
     width: 60%;
-    opacity: 0.6;
+    color: rgba(0,0,0,0.6);
 }
 
 .login-form{
