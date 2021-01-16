@@ -24,6 +24,38 @@
 }
 
 .nav_link{
-    transform: scale(1.5,1.5);
     color: #2e363e;
+}
+
+.nav_link{
+    position: relative;
+}
+
+.nav-comment-notification{
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-weight: 600;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+}
+
+.nav-etc-notification{
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    position: absolute;
+    right: -15px;
 }
