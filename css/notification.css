@@ -33,7 +33,7 @@
 
 .banner{
     padding: 0px 14px;
-    width: 100%;
+    width: inherit;
     height: 65px;
     display: flex;
     justify-content: center;
