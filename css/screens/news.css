@@ -1,13 +1,4 @@
 
-
-.news .subtitle{
-    white-space:normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-
-
 .container-channel.channel-news{
     background-color: rgba(0,0,0,0.1);
 }
@@ -23,13 +14,22 @@
 
 .channel-news .dividebox{
     height: inherit;
-    max-width: 80%;
+    max-width: 70%;
+    max-height: 100%;
 }
+
 .channel-news .info{
     max-width: 100%;
     height: 100%;
     justify-content: space-evenly;
     line-height: 15px;
+}
+
+.news .subtitle{
+    white-space:normal;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-height: 50%;
 }
 
 .news .thumb{
