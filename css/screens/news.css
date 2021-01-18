@@ -1,11 +1,43 @@
-.news .thumb{
-    width: 20%;
-    max-height: 87px;
-    background: none;
-}
+
 
 .news .subtitle{
     white-space:normal;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+
+
+.container-channel.channel-news{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.channel-news .wrap-channel{
+    padding-bottom: 10px;
+}
+.component-user.news{
+    height: 100px;
+    background-color: white;
+    border-bottom: var(--component-border);
+}
+
+.channel-news .dividebox{
+    height: inherit;
+    max-width: 80%;
+}
+.channel-news .info{
+    max-width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    line-height: 15px;
+}
+
+.news .thumb{
+    border-radius: 0;
+    width: 20%;
+    max-height: 87px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px black;
 }
