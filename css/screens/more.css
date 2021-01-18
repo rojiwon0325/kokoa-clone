@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 14px;
+    padding: 12px 14px;
 }
 
 
@@ -30,4 +30,48 @@
 
 .list-kpay .balance .units{
     padding-top: 2px;
+}
+
+.kbtn{
+    width: 42px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.vertical-line{
+    height: 15px;
+    border-left:var(--component-border);
+    position: relative;
+    bottom: 2px;
+}
+
+.border-top{
+    margin: 0px 14px;
+    border-top: var(--component-border);
+}
+
+.more{
+    padding: 10px 6px;
+}
+
+.more .list-btn{
+    flex-wrap: wrap;
+}
+
+.btn-more{
+    width: 90px;
+    height: 64px;
+    flex-direction: column;
+}
+.btn-more i{
+    transform: scale(1.25, 1.25);
+}
+.btn-more:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-more span{
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.7);
 }

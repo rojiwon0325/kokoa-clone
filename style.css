@@ -29,6 +29,7 @@ body{
 }
 .list-btn{
     display: flex;
+    align-items: center;
 }
 
 .btn-icon{
