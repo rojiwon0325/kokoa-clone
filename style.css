@@ -21,7 +21,7 @@
 }
 body{
     width: 375px;
-    width: 100vw;
+    width: inherit;
     min-width: 300px;
     background-color: white;
 }
