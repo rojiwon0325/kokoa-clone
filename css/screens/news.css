@@ -1,0 +1,11 @@
+.news .thumb{
+    width: 20%;
+    max-height: 87px;
+    background: none;
+}
+
+.news .subtitle{
+    white-space:normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
