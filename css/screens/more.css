@@ -59,7 +59,7 @@
 }
 
 .btn-more{
-    width: 90px;
+    width: 25%;
     height: 64px;
     flex-direction: column;
 }
