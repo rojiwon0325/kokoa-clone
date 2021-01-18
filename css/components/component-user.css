@@ -55,3 +55,17 @@
     height: 23px;
     
 }
+
+.component-user.news{
+    height: 100px;
+    background-color: white;
+    border-bottom: var(--component-border);
+}
+
+.dividebox{
+    max-width: 80%;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
