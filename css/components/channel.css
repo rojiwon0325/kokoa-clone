@@ -29,19 +29,3 @@
     padding-top: 95px;
     padding-bottom: 76px;
 }
-
-.container-channel.news{
-    background-color: rgba(0,0,0,0.1);
-}
-
-.news .wrap-channel{
-    padding-bottom: 10px;
-}
-.news .dividebox{
-    height: inherit;
-}
-.news .info{
-    height: 100%;
-    justify-content: space-evenly;
-    line-height: 15px;
-}

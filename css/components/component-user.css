@@ -56,12 +56,6 @@
     
 }
 
-.component-user.news{
-    height: 100px;
-    background-color: white;
-    border-bottom: var(--component-border);
-}
-
 .dividebox{
     max-width: 80%;
     display: inherit;
