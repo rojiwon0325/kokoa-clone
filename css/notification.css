@@ -32,13 +32,19 @@
 }
 
 .banner{
-    margin: 0px 14px;
-    width: 347px;
+    padding: 0px 14px;
+    width: 100vw;
     height: 65px;
+    display: flex;
+    justify-content: center;
+}
+.banner .link-banner{
+    display: block;
+    width: 350px;
+    height: 100%;
     background-color: rgba(0,0,0,0.3);
     border-radius: 5px;
 }
-
 .banner.more{
     margin-top: 12px;
     margin-bottom: 6px;
