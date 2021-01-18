@@ -1,0 +1,32 @@
+#wrap-status-bar{
+    width: inherit;
+    min-width: 300px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 0px 2%;
+    border-bottom: 4px solid rgba(0,0,0,0);
+    position: fixed;
+    z-index: 999;
+}
+
+#wrap-status-bar div{
+    width: 20%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#wrap-status-bar .time{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#wrap-status-bar i{
+    transform: scale(0.6, 0.6);
+    position: relative;
+    bottom: 2px;
+}

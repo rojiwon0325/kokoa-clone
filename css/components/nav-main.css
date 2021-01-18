@@ -1,0 +1,26 @@
+.nav-main{
+    
+    width: inherit;
+    min-width: 300px;
+
+    position: fixed;
+    bottom: 0px;
+
+    background-color: white;
+    z-index: 50;
+    padding-bottom: 20px;
+}
+
+.nav-main .nav-btn{
+    width: 25%;
+    height: 56px;
+    border-top:var(--component-border);
+}
+
+.nav-main .nav-btn:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.nav-main i{
+    transform: scale(1.25, 1.25);
+}

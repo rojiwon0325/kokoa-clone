@@ -1,0 +1,33 @@
+
+.list-kpay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 14px;
+}
+
+
+.list-kpay .balance{
+    width: 120px;
+    height: 30px;
+    border: var(--component-border);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+#money{
+    font-weight: bold;
+    padding-top: 2px;
+}
+#log-kpay{
+    font-weight: bold;
+    padding: 0px 2px;
+
+}
+
+.list-kpay .balance .units{
+    padding-top: 2px;
+}

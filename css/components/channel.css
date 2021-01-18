@@ -1,0 +1,25 @@
+
+.wrap-channel{
+    margin-top: 6px;
+}
+
+.header-channel{
+    padding: 12px 0px 6px 0px;
+    margin: 0px 14px;
+    height: 34px;
+    position: relative;
+    border-top: var(--component-border);
+}
+
+
+.header-channel .header-btn{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 13px;
+    right: 0px;
+    color: rgba(0,0,0,0.3);
+}
+.header-channel .header-btn i{
+    transform: scale(1,0.9375);
+}
