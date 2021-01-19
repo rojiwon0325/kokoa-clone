@@ -1,5 +1,6 @@
 @import "./css/reset.css";
 @import "./css/variables.css";
+@import "./css/effectscreen.css";
 
 /* Components */
 @import "./css/components/status-bar.css";
