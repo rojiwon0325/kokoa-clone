@@ -72,11 +72,15 @@
 .reply{
     background-color: rgb(190,190,190);
     width: inherit;
-    height: 313px;
+    height: 60px;
     border-top: var(--component-border);
     position: fixed;
-    bottom: -242px;
+    bottom: -18px;
     transition: transform 1s ease;
+}
+
+.reply:hover{
+    transform: translateY(-18px);
 }
 
 .reply .wrap-reply-bar{
@@ -88,9 +92,6 @@
     position: relative;
 }
 
-.reply:hover{
-    transform: translateY(-242px);
-}
 .wrap-reply-bar .btn-option-reply{
     width: 45px;
     height: 40px;
