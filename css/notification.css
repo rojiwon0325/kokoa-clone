@@ -26,21 +26,6 @@
     }
 }
 
-@keyframes vib-noti{
-    30%{
-        transform: none;
-    }
-    40%{
-        transform: translateX(-1px);
-    }
-    60%{
-        transform: translateX(1px);
-    }
-    70%{
-        transform: none;
-    }
-}
-
 .nav-main .notification-chat{
     position: absolute;
     top: 18%;
