@@ -52,6 +52,7 @@ table {
 
 
 input, input:focus{
+	border: 0;
 	outline: none;
 }
 
