@@ -79,7 +79,7 @@
     transition: transform 1s ease;
 }
 
-.reply:hover{
+.reply:focus-within{
     transform: translateY(-18px);
 }
 
