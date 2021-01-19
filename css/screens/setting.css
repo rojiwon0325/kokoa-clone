@@ -1,0 +1,34 @@
+
+.channel-setting .list-component-setting{
+    border-bottom: var(--component-border);
+    padding: 16px 0px;
+}
+.channel-setting .list-component-setting:first-child{
+    padding-top: 6px;
+}
+.channel-setting .list-component-setting:last-child{
+    border: 0;
+}
+
+.component-user.setting{
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    height: 48px;
+}
+
+.component-user.setting:last-child{
+    border: 0px;
+}
+
+
+.component-user.setting .title{
+    font-weight: 500;
+}
+.component-user.setting>div{
+    display: flex;
+    align-items: center;
+}
+.icon-setting{
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}

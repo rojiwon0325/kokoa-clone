@@ -47,6 +47,24 @@
     background-color: white;
     z-index: 50;
 }
+
+.header-component-style_2>div{
+    width: 33%;
+}
+.header-component-style_2>div:first-child{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-component-style_2>div:nth-child(2){
+    text-align: center;
+}
+
+.header-component-style_2>div:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .header-component-style_2 .header-btn i{
     transform: scale(1.25, 1.25);
 }
