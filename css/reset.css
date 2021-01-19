@@ -51,7 +51,7 @@ table {
 
 
 
-input:focus{
+input, input:focus{
 	outline: none;
 }
 
