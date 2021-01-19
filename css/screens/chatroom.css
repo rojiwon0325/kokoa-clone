@@ -116,10 +116,20 @@
     border-radius: 15px;
     background-color:rgb(220,220,220);
     border: 1px solid rgb(180,180,180); 
-    padding-left: 20px;
     padding-right: 60px;
-    font-size: 15px;
+    display: flex;
+    align-items: center;
 }
+
+.wrap-input-reply input{
+    font-size: 15px;
+    width: 100%;
+    height: 33px;
+    background: none;
+    padding: 0px 13px;
+}
+
+
 
 .btn-input-reply{
     position: absolute;
