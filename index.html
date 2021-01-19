@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 
 <head>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends in kokoaTalk!</title>
+    <title>Welcome to kokoatalk</title>
 </head>
 
 <body>
-    <!--스마트폰 상태바 시작-->
     <section id="wrap-status-bar">
         <div>
             <span class="time">12:32</span>
@@ -23,6 +22,21 @@
 
     </section>
     <!--스마트폰 상태바 끝-->
+
+    <section class="container-login">
+        <header class="header-login">
+            <h1 class="title">Welcome to kokoaTalk</h1>
+            <span class="subtitle">If you have a kokoa Account,</span>
+            <span class="subtitle">log in with your email or phone number.</span>
+        </header>
+
+        <form action="friends.html" method="GET" class="form-login">
+            <input name="username" class="input-login" type="text" required placeholder="Email or phone number" />
+            <input name="password" class="input-login" type="password" required placeholder="Password" />
+            <input class="btn-login" type="submit" value="Log In" />
+            <a href="#">Find KokoaTalk Account or Password</a>
+        </form>
+    </section>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
     </script>
