@@ -72,15 +72,10 @@
 .reply{
     background-color: rgb(190,190,190);
     width: inherit;
-    height: 60px;
+    height: 42px;
     border-top: var(--component-border);
     position: fixed;
-    bottom: -18px;
-    transition: transform 1s ease;
-}
-
-.reply:focus-within{
-    transform: translateY(-18px);
+    bottom: 0;
 }
 
 .reply .wrap-reply-bar{
@@ -88,6 +83,7 @@
     height: 40px;
     background-color: white;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
 }
@@ -95,22 +91,23 @@
 .wrap-reply-bar .btn-option-reply{
     width: 45px;
     height: 40px;
-    background-color: white;
-    border-right: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(100,100,100);
     position: absolute;
     left: 0;
+    transition: all 1s ease;
+
 }
 
 .wrap-input-reply{
     display: flex;
     align-items: center;
-    width: 100%;
-    padding-left: 45px;
-    padding-right: 6px;
+    width: 92%;
+    padding-left: 14px;
+    padding-right: 14px;
+    transition: all 1s ease;
 }
 
 .wrap-input-reply .input-reply{
@@ -121,7 +118,6 @@
     border: 1px solid rgb(180,180,180); 
     padding-left: 20px;
     padding-right: 60px;
-    margin-right: 10px;
     font-size: 15px;
 }
 
@@ -132,6 +128,14 @@
 
 .btn-input-reply i{
     margin: 0px 5px;
+}
+
+.reply:focus-within .btn-option-reply{
+    transform: translateX(-45px);
+}
+
+.reply:focus-within .wrap-input-reply{
+    width: 100vw;
 }
 
 
