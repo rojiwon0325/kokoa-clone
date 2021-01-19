@@ -48,13 +48,11 @@
     font-size: 20px;
     margin: 30px 0px;
     margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.3);
 }
 .form-login .btn-login:hover{
     background-color:var(--yellow);
     cursor:pointer;
-}
-.form-login .btn-login:active{
-    background-color:var(--darkyellow);
 }
 
 .form-login a{
