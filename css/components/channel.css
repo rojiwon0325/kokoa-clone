@@ -45,3 +45,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.container-style_2.chatroom{
+    background-color: rgb(171, 193, 209);
+    padding-bottom: 20px;
+    height: 200vh;
+}
