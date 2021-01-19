@@ -50,6 +50,7 @@
 
 .header-component-style_2>div{
     width: 33%;
+    padding: 0px 7px;
 }
 .header-component-style_2>div:first-child{
     display: flex;
@@ -72,11 +73,14 @@
 .header-component-style_2 .title{
     font-weight: bold;
     font-size: 20px;
-    margin-left: 14px;
 }
 
 .header-component-style_2 .header-btn{
     width: 20px;
     height: 20px;
-    margin: 0px 14px;
+    margin: 0px 7px;
+}
+
+.header-component-style_2.chatroom{
+    background-color: rgba(171, 193, 209, 0.5);
 }

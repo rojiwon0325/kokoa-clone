@@ -1,0 +1,69 @@
+.timelog-talk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.timelog-talk .subtitle{
+    background-color: rgba(0,0,0,0.3);
+    color: rgba(255,255,255,0.7);
+    display: block;
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.component-user.you{
+    justify-content: flex-start;
+    padding-left: 0px;
+    align-items: flex-start;
+}
+
+.component-user.me{
+    justify-content: flex-end;
+}
+
+.component-user.you .thumb{
+    margin-left: 10px;
+    margin-right: 6px;
+    width: 32px;
+    height: 32px;
+}
+.component-user.you .name{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+.chatroom .component-user .text{
+    font-size: 15px;
+    background-color: white;
+    padding: 7px 8px 6px 8px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    max-width: 50vw;
+}
+.chatroom .component-user .msg{
+    display: flex;
+    align-items: flex-end;
+}
+
+.chatroom .component-user .msg.me{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.timelog-msg{
+    font-size: 14px;
+    margin: 0px 5px;
+}
+
+.chatroom .component-user .msg.me .text{
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    background-color: var(--yellow);
+}
